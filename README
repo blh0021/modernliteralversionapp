@@ -1,0 +1,3 @@
+The following packages were not updated. You should check the READMEs for those repositories to determine what version is compatible with your new set of packages:
+events, expo-codemod, node-libs-react-native, react-native-cheerio, react-native-elements, react-native-markdown-view, react-native-render-html, react-native-webview-autoheight, react-navigation, striptags
+

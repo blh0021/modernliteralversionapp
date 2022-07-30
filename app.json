@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ModernLiteralVersion",
+    "description": "Modern Literal Version Bible",
+    "slug": "ModernLiteralVersion",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 45000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.benharrington.mlvbible",
+      "icon": "./assets/iosnoalpha.png",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.benharrington.mlvbible",
+      "permissions": [],
+      "versionCode": 8
+    },
+    "userInterfaceStyle": "automatic"
+  }
+}
