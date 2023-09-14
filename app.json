@@ -8,7 +8,7 @@
       "ios",
       "android"
     ],
-    "version": "2.0.0",
+    "version": "2.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,7 +17,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 45000
+      "fallbackToCacheTimeout": 45000,
+      "url": "https://u.expo.dev/97d7aa80-cc9f-11e8-b529-43215dc5e5d7"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,16 +26,19 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.benharrington.mlvbible",
-      "icon": "./assets/iosnoalpha.png",
-      "config": {
-        "usesNonExemptEncryption": false
-      }
+      "icon": "./assets/iosnoalpha.png"
     },
     "android": {
       "package": "com.benharrington.mlvbible",
       "permissions": [],
-      "versionCode": 8
+      "versionCode": 9
     },
-    "userInterfaceStyle": "automatic"
+    "userInterfaceStyle": "automatic",
+    "extra": {
+      "eas": {
+        "projectId": "97d7aa80-cc9f-11e8-b529-43215dc5e5d7"
+      }
+    },
+    "runtimeVersion": "1.0.0"
   }
 }
