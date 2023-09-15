@@ -31,6 +31,10 @@
     "android": {
       "package": "com.benharrington.mlvbible",
       "permissions": [],
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
       "versionCode": 9
     },
     "userInterfaceStyle": "automatic",
